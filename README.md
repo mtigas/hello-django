@@ -4,12 +4,11 @@ hello-django
 The minimum "hello world" for Django 1.4. Views only, no code having anything
 to do with model/database/etc.
 
-## Setup:
+## How this repo was put together
 
 Assuming Django is installed (`pip install django` or `easy_install django`),
-these are the commands that were run to create this repo once you are `cd`'d
-into a directory you want to contain your Django project (in my case, the
-directory that became the root of this repo):
+these are the commands that were run to create this repo (once I was `cd`'d
+into the root of this repo):
 
     django-admin.py startproject mysite
     cd mysite
@@ -41,7 +40,7 @@ These steps comprised [the next commit](https://github.com/mtigas/hello-django/c
 
 That's it.
 
-## Hello World
+## Running "Hello World"
 
 From inside the repo root:
 
