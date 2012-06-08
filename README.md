@@ -6,9 +6,10 @@ to do with model/database/etc.
 
 ## Setup:
 
-Assuming django is installed (`pip install django` or `easy_install django`),
+Assuming Django is installed (`pip install django` or `easy_install django`),
 these are the commands that were run to create this repo once you are `cd`'d
-into the root of this repo:
+into a directory you want to contain your Django project (in my case, the
+directory that became the root of this repo):
 
     django-admin.py startproject mysite
     cd mysite
