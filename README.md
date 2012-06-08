@@ -56,3 +56,21 @@ This doesn't use [virtualenv](http://iamzed.com/2009/05/07/a-primer-on-virtualen
 or any other "best practices" things to contain the Django installation. This
 doesn't explain anything other than how to get plain Python code spitting out
 an `HttpResponse` that says "Hello, world" at the / URL.
+
+# What now?
+
+You should [read the official Django tutorial](https://docs.djangoproject.com/en/1.4/intro/tutorial01/)
+to start learning more about the structure of a Django app and how to use
+Django's ORM to work with a database.
+
+The [Django Book](http://www.djangobook.com/en/2.0/) is technically outdated
+(originally written for Django 1.0, in 2009), but the first handful of chapters
+are a great resource for those learning the ropes.
+
+Once you get your land legs, the [official Django documentation](https://docs.djangoproject.com/en/1.4/)
+is a great reference to keep on-hand.
+
+If you're new to Python (and even if you're not), the [Python documentation](http://docs.python.org/)
+is equally useful and well-structured in terms of the API. (i.e.: Need to know about
+`datetime` and see example uses of some of the functions? The [datetime documentation](http://docs.python.org/library/datetime.html)
+has you covered.)
