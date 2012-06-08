@@ -1,7 +1,8 @@
 hello-django
 ============
 
-The minimum "hello world" for Django 1.4. Views only, no 
+The minimum "hello world" for Django 1.4. Views only, no code having anything
+to do with model/database/etc.
 
 ## Setup:
 
@@ -33,3 +34,10 @@ From inside the repo root:
     python manage.py runserver
 
 Then open http://127.0.0.1:8000/ .
+
+## Notes
+
+This doesn't use [virtualenv](http://iamzed.com/2009/05/07/a-primer-on-virtualenv/)
+or any other "best practices" things to contain the Django installation. This
+doesn't explain anything other than how to get plain Python code spitting out
+an `HttpResponse` that says "Hello, world" at the / URL.
