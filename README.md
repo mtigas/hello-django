@@ -73,6 +73,6 @@ Once you get your land legs, the [official Django documentation](https://docs.dj
 is a great reference to keep on-hand.
 
 If you're new to Python (and even if you're not), the [Python documentation](http://docs.python.org/)
-is equally useful and well-structured in terms of the API. (i.e.: Need to know about
-`datetime` and see example uses of some of the functions? The [datetime documentation](http://docs.python.org/library/datetime.html)
+is equally useful and well-structured in terms of the API. (i.e.: Need to know about the
+`datetime` module and see examples of it's functions in use? The [datetime documentation](http://docs.python.org/library/datetime.html)
 has you covered.)
