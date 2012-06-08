@@ -57,6 +57,8 @@ or any other "best practices" things to contain the Django installation. This
 doesn't explain anything other than how to get plain Python code spitting out
 an `HttpResponse` that says "Hello, world" at the / URL.
 
+---
+
 # What now?
 
 You should [read the official Django tutorial](https://docs.djangoproject.com/en/1.4/intro/tutorial01/)
