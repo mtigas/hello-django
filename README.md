@@ -15,7 +15,7 @@ directory that became the root of this repo):
     cd mysite
     python manage.py startapp myapp
 
-(That, unedited, was the first code commit.)
+(The result of these steps, unedited, was the [first code commit](https://github.com/mtigas/hello-django/commit/255d88661c025874d5e47c2e1bc5a5d8d624d265).)
 
 Then `mysite/myapp/views.py` was edited to contain [the little bit of code
 you see inside that file now.](https://github.com/mtigas/hello-django/blob/master/mysite/myapp/views.py)
@@ -25,7 +25,9 @@ you see inside that file now.](https://github.com/mtigas/hello-django/blob/maste
 
     url(r'^$', 'myapp.views.hello'),
 
-(Those steps comprised the next commit.)
+(Those steps comprised [the next commit](https://github.com/mtigas/hello-django/commit/07544b4f17f9bfc3c42874ea0b6b67f84c18e2c4).)
+
+That's it.
 
 ## Hello World
 
