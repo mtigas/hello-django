@@ -17,8 +17,8 @@ directory that became the root of this repo):
 
 (That, unedited, was the first code commit.)
 
-Then `mysite/myapp/views.py` was edited to contain the little bit of code
-you see inside that file now.
+Then `mysite/myapp/views.py` was edited to contain [the little bit of code
+you see inside that file now.](https://github.com/mtigas/hello-django/blob/master/mysite/myapp/views.py)
 
 `mysite/mysite/urls.py` was edited to add the following line inside the
 `patterns('', ...)`  bit.
