@@ -4,10 +4,21 @@ hello-django
 The minimum "hello world" for Django 1.4. Views only, no code having anything
 to do with model/database/etc.
 
+Assumes Django 1.4+ is installed (`pip install django` or `easy_install django`).
+See "Notes" section below.
+
+## Running "Hello World"
+
+From inside the repo root:
+
+    cd mysite
+    python manage.py runserver
+
+Then open http://127.0.0.1:8000/ .
+
 ## How this repo was put together
 
-Assuming Django is installed (`pip install django` or `easy_install django`),
-these are the commands that were run to create this repo (once I was `cd`'d
+These are the commands that were run to create this repo (once I was `cd`'d
 into the root of this repo):
 
     django-admin.py startproject mysite
@@ -39,15 +50,6 @@ you see inside that file now.](https://github.com/mtigas/hello-django/blob/maste
 These steps comprised [the next commit](https://github.com/mtigas/hello-django/commit/07544b4f17f9bfc3c42874ea0b6b67f84c18e2c4). (See also [comment on that commit](https://github.com/mtigas/hello-django/commit/07544b4f17f9bfc3c42874ea0b6b67f84c18e2c4#commitcomment-1436281).)
 
 That's it.
-
-## Running "Hello World"
-
-From inside the repo root:
-
-    cd mysite
-    python manage.py runserver
-
-Then open http://127.0.0.1:8000/ .
 
 ## Notes
 
